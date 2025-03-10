@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMPR3SSIO - Home</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>IMPR3SSIO</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/upload">Upload</a>
+      <a href="/cart">Cart</a>
+      <a href="/profile">Profile</a>
+      <% if (user) { %>
+        <a href="/logout">Logout</a>
+      <% } else { %>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+      <% } %>
+    </nav>
+    <section class="banner">
+      <h2>Discover Amazing Features</h2>
+      <p>Explore our services and enjoy a seamless experience.</p>
+      <a href="/login" class="cta-button">Get Started</a>
+  </section>
+  </header>
+  <main>
+    <h2>Welcome to IMPR3SSIO</h2>
+    <p>Upload your STL files and get a quotation for 3D printing.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025 IMPR3SSIO. All rights reserved.</p>
+  </footer>
+</body>
+</html>

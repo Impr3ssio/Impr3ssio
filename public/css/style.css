@@ -190,13 +190,13 @@ nav {
   }
   /* Banner Styling */
   .banner {
-    background-image: url('../images/IMPR3SSIO.svg'); /* Replace with your image path */
-    background-size: cover; /* Ensures the image covers the entire banner */
-    background-position: center; /* Centers the image */
-    color: #F1E3C8; /* Text color */
-    text-align: center; /* Centers the text */
-    padding: 100px 20px; /* Adds space inside the banner */
-    margin-bottom: 20px; /* Adds space below the banner */
+    background-image: url('../images/IMPR3SSIO.png'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #F1E3C8; 
+    text-align: center; 
+    padding: 100px 20px; 
+    margin-bottom: 20px; 
 }
 
 .banner h2 {
@@ -220,5 +220,4 @@ nav {
 }
 
 .banner .cta-button:hover {
-    background-color: #4a1c0e; /* Darker shade for hover effect */
-}
+    background-color: #4a1c0e;

@@ -190,7 +190,7 @@ nav {
   }
   /* Banner Styling */
   .banner {
-    background-image: url(file:///C:/Users/Bhavjot%20Singh/Pictures/IMPR3SSIO.jpg); /* Replace with your image path */
+    background-image: url('../images/IMPR3SSIO.svg'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire banner */
     background-position: center; /* Centers the image */
     color: #F1E3C8; /* Text color */
